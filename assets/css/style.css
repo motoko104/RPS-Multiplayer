@@ -1,0 +1,90 @@
+*{
+    max-width: 1100px;  
+}
+body{
+    background: url(../images/popTeamEpicTV.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-color: rgb(0,0,86);
+    border-radius: 15px;
+}
+.header{
+    position: relative;
+    left: 33%;
+    height: 120px;
+    background-image: url(../images/titleBanner.png);
+    background-repeat: no-repeat;
+}
+.card-header, #submit, #returning{
+    background-color: #e86af0;
+    border-width: 0 1px 2px 1px;
+    border-style: solid;
+    border-color: #a54cac;
+    color: rgb(20, 20, 105);
+    font-weight: 500;
+}
+.signIn{
+    margin: 10px;
+    border-color: rgb(8, 8, 87);
+    left: 35%;
+    width: 43%;
+    height: 350px;
+    display: inline-block;
+}
+.card-body{
+    background-color: #6585b1;
+    font-weight: 500;
+}
+.returningPlay{
+    margin: 10px;
+    border-color: rgb(8, 8, 87);
+    left: 35%;
+    width: 43%;
+    height: 250px;
+    display: none;
+}
+.playZone{
+    display: none;
+}
+.user1{
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    display: inline-block;
+    left: 200px;
+    position: relative;
+    color: black;
+    border-radius: 15px;
+
+}
+.user2{
+    width: 150px;
+    height:150px;
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    border-radius: 15px;
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+.card-title{
+    color: black;
+    font-weight: 600;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+}
+.rock, .paper, .scissors{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    display: inline-block;
+    top: 250px;
+    left: -40px;
+    position: relative;
+    border-radius: 20px;
+
+}
